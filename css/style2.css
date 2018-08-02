@@ -7,26 +7,27 @@
   min-width: 100%;
   min-height: 100%;
 }
+
 .tester {
   position: absolute;
   justify-content: center;
   text-align: center;
-  top:40%;
+  top: 40%;
   left: 30%;
   font-size: 4rem;
   font-weight: bold;
 }
 
 .tester p {
-  color: #35345B;
+  color: #ffffff;
 }
+
 /* Add some content at the bottom of the video/page */
 
 .content2 {
   position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-
   width: 100%;
   padding: 20px;
   transition: 1s;
@@ -43,15 +44,21 @@ navbar a {
   float: left;
   display: block;
   text-align: center;
+  align-items: center;
   color: #E80041;
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: bold;
   transition: .5s;
 }
+
+.links a {
+  height: 40px;
+}
+
 .links a:hover {
-  color:#35345B;
-  border-bottom: 3px solid #35345B;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
 .logo {
@@ -73,7 +80,7 @@ navbar a {
 }
 
 .backdoor {
-  width: 10%
+  width: 20%
 }
 
 .backdoor #backdoor {
@@ -84,10 +91,16 @@ navbar a {
   padding: 15px 5px 15px 5px;
   transition: .5s;
 }
+
 .backdoor #backdoor:hover {
-  color:#35345B;
-  border: 2px solid #35345B;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
+
+.backdoor a:hover {
+  color: #ffffff;
+}
+
 .logo
 /* Style the button used to pause/play the video */
 
@@ -131,6 +144,7 @@ section {
 
 .rubriques:hover {
   font-size: 1.6rem;
+  background: #e5e3e3;
 }
 
 .icons img {
@@ -162,8 +176,9 @@ section {
   padding: 15px 30px 15px 30px;
   transition: 1s;
 }
+
 .button a:hover {
-  color:white;
+  color: white;
   background: black;
 }
 
@@ -186,57 +201,64 @@ section {
   top: 50%;
 }
 
+.construction {
+  background: url('./img/construction.png');
+}
+
 /* responsivite */
+
 @media (max-width: 1400px) {
-.tester {
-  font-size: 3.3rem;
+  .tester {
+    font-size: 3.3rem;
+  }
 }
-}
+
 @media (max-width: 1220px) {
-.tester {
-  font-size: 3rem;
+  .tester {
+    font-size: 3rem;
+  }
 }
-}
+
 @media (max-width: 1050px) {
   .tester {
-    left:20%;
+    left: 20%;
   }
   navbar a {
     font-size: 1.5rem;
   }
   .rubriques {
     font-size: 1.1rem;
-    }
-    .rubriques:hover {
-      font-size: 1.4rem;
-      }
-
+  }
+  .rubriques:hover {
+    font-size: 1.4rem;
+  }
 }
+
 @media (max-width: 900px) {
   .rubriques {
     width: 50%;
     height: 40vh;
   }
   .logo {
-    width:15%;
+    width: 15%;
   }
   .text {
     margin: 0 0 30px 0;
   }
-  .button a{
-      padding: 10px 15px 10px 15px;
+  .button a {
+    padding: 10px 15px 10px 15px;
   }
-
-  .backdoor #backdoor{
+  .backdoor #backdoor {
     font-size: 0.6rem;
   }
   footer a {
     font-size: 1rem;
   }
 }
+
 @media (max-width: 800px) {
   .tester {
-    left:16%;
+    left: 16%;
   }
   navbar a {
     font-size: 1.2rem;
@@ -245,9 +267,9 @@ section {
 
 @media (max-width: 650px) {
   .tester {
-    left:10%;
+    left: 10%;
   }
-  .backdoor #backdoor{
+  .backdoor #backdoor {
     font-size: 0.5rem;
   }
   footer a, footer p {
@@ -260,45 +282,46 @@ section {
 
 @media (max-width: 550px) {
   .tester {
-    left:7%;
+    left: 7%;
+    top: 30%;
   }
-
   navbar a {
     font-size: 0.8rem;
   }
-  .backdoor #backdoor{
+  .backdoor #backdoor {
     font-size: 0.4rem;
   }
 }
 
-
 @media (max-width: 450px) {
   .logo {
-    width:40%;
+    width: 50%;
   }
   .logo a {
-    width:100%;
+    width: 100%;
   }
   .backdoor {
-    width:25%;
+    width: 35%;
+  }
+  .links a:hover {
+    border: none;
   }
   .links {
-    width:50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
   }
   .tester {
-    left:5%;
+    left: 5%;
   }
   .rubriques {
     width: 100%;
     height: 40vh;
   }
-
-  .backdoor #backdoor{
+  .backdoor #backdoor {
     font-size: 0.7rem;
   }
-  footer a, footer p{
+  footer a, footer p {
     font-size: 0.6rem;
   }
 }
