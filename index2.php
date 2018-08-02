@@ -29,7 +29,11 @@
 <video autoplay muted loop id="myVideo">
  <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
 </video>
+<div class="tester">
+		<p>SIMPLON CHARLEVILLE</p>
 
+
+</div>
 <!-- Optional: some overlay text to describe the video -->
 <div class="content2">
   <navbar>
@@ -39,9 +43,10 @@
       </div>
       <div class="links">
         <a href="home.php" class="active">HOME</a>
-        <a href="home.php" class="active" class="active">HOME</a>
-        <a href="home.php" class="active">HOME</a>
-        <a href="home.php" class="active">HOME</a>
+        <a href="home.php" class="active" class="active">LEARN</a>
+        <a href="home.php" class="active">A PROJECT ?</a>
+        <a href="home.php" class="active">HELP US</a>
+				<a href="home.php" class="active">OUR CLASSES</a>
       </div>
       <div class="backdoor">
         <a href="home.php" id="backdoor">BACKDOOR</a>
@@ -57,14 +62,14 @@
 	<main>
 
 <div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
-    <i class="large material-icons">mode_edit</i>
+  <a class="btn-floating btn-large black">
+    <i class="large material-icons">SOC</i>
   </a>
   <ul>
-    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    <li><a href="#" class="btn-floating black"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#" class="btn-floating yellow black"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="#" class="btn-floating black"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#" class="btn-floating black"><i class="fab fa-google-plus-g"></i></a></li>
   </ul>
 </div>
 
